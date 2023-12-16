@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px 10px rgb(64, 63, 63);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+#shoppingList{
+    margin: 0;
+    padding: 0;
+}
+
+#shoppingList li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#addItemContainer{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+.addItemContainer button{
+    background-color: rgb(88, 87, 88);
+    color: rgba(255, 255, 255, 0.678);
+    width: 30%;
+    border-radius: 10px;
+    border: 0;
+}
+
+.remove-item{
+    border-radius: 10px;
+    color: rgb(170, 34, 163);
+    cursor: pointer;
+    font-size: 17px;
+}
